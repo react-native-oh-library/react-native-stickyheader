@@ -1,6 +1,7 @@
 'use strict';
 import React, { useMemo, useState, useCallback } from 'react';
-import { StyleSheet, ViewPropTypes, Animated } from 'react-native';
+import { StyleSheet, Animated } from 'react-native';
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 import PropTypes from 'prop-types';
 
 function StickyHeader(props) {
@@ -48,6 +49,7 @@ function StickyHeader(props) {
 
 const styles = StyleSheet.create({
   container: {
+    position: "relative",
     zIndex: 100,
   },
 });
