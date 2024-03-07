@@ -5,8 +5,8 @@ export interface StickyHeaderProps extends ViewProps {
   style?: StyleProp<ViewStyle>;
   stickyHeaderY?: number;
   stickyScrollY: any;
-}
+};
 
-const StickyHeader: React.ComponentClass<StickyHeaderProps>;
+const StickyHeader: React.ComponentClass<StickyHeaderProps> = new StickyHeaderProps;
 
 export default StickyHeader;
