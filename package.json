@@ -9,9 +9,6 @@
     "react-native": "src/index",
     "source": "src/index",
     "types": "src/index.d.ts",
-    "files": [
-        "src"
-    ],
     "keywords": [
         "stickyheader",
         "sticky",
@@ -43,7 +40,7 @@
     ],
     "harmony": {
         "alias":
-                "react-native-popver-view"
+                "react-native-stickyheader"
     },
     "react-native-builder-bob": {
         "source": "src",
